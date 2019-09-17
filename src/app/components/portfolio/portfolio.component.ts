@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 import { PortfolioService } from 'src/app/services/portfolio.service';
 import { Portfolio } from 'src/app/services/portfolio.model';
@@ -45,9 +46,14 @@ export class PortfolioComponent implements OnInit {
 
   portfolios: Portfolio[];
 
-  constructor(private portfolioService: PortfolioService) { }
+  constructor(private portfolioService: PortfolioService,
+    private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
+    const filter = this.activatedRoute.snapshot.queryParamMap.get('filter');
+    if (filter) {
+      this._selectedType = filter;
+    }
     this.loadPortfolios(this._selectedType);
   }
 

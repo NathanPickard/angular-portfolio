@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Portfolio } from 'src/app/services/portfolio.model';
+import { PortfolioService } from 'src/app/services/portfolio.service';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -7,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  recentProjects: Portfolio[];
+  constructor(private portfolioService: PortfolioService) { }
 
   ngOnInit() {
+    this.portfolioService.get().subscribe(data => {
+      this.recentProjects = data.splice(0, 7);
+    });
   }
 
 }
