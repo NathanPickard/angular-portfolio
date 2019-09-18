@@ -2,7 +2,24 @@
 
 @import './src/app/styles/_colors';
 
-@import '~bootstrap/scss/bootstrap';
+// Required
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Optional but needed for this app
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/scss/utilities/display";
+@import "~bootstrap/scss/utilities/float";
+@import "~bootstrap/scss/utilities/text";
+@import "~bootstrap/scss/utilities/align";
+@import "~bootstrap/scss/utilities/borders";
+@import "~bootstrap/scss/utilities/sizing";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/images";
 
 @import './src/app/styles/portfolio';
 
