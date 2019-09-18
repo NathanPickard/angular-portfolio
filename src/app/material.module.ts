@@ -4,6 +4,8 @@ import {
   MatButtonModule,
   MatCardModule,
   MatDividerModule,
+  MatFormFieldModule,
+  MatInputModule,
   MatProgressBarModule,
   MatRadioModule
 } from '@angular/material';
@@ -13,6 +15,8 @@ import {
     MatButtonModule,
     MatCardModule,
     MatDividerModule,
+    MatFormFieldModule,
+    MatInputModule,
     MatProgressBarModule,
     MatRadioModule
   ],
@@ -20,6 +24,8 @@ import {
     MatButtonModule,
     MatCardModule,
     MatDividerModule,
+    MatFormFieldModule,
+    MatInputModule,
     MatProgressBarModule,
     MatRadioModule
   ]
