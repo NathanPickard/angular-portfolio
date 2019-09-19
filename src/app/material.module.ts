@@ -5,6 +5,7 @@ import {
   MatCardModule,
   MatDividerModule,
   MatFormFieldModule,
+  MatIconModule,
   MatInputModule,
   MatProgressBarModule,
   MatRadioModule
@@ -16,6 +17,7 @@ import {
     MatCardModule,
     MatDividerModule,
     MatFormFieldModule,
+    MatIconModule,
     MatInputModule,
     MatProgressBarModule,
     MatRadioModule
@@ -25,6 +27,7 @@ import {
     MatCardModule,
     MatDividerModule,
     MatFormFieldModule,
+    MatIconModule,
     MatInputModule,
     MatProgressBarModule,
     MatRadioModule

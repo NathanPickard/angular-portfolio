@@ -1,6 +1,6 @@
 [{
   "id": 1,
-  "name": "Donnajean",
+  "name": "Live Music PDX",
   "discription": "Schneidau",
   "type": "Angular",
   "preview": "https://fakeimg.pl/650x450/000000/"
@@ -12,7 +12,7 @@
   "preview": "https://fakeimg.pl/650x450/000000/"
 }, {
   "id": 3,
-  "name": "Aubert",
+  "name": "National Park Fitter",
   "discription": "Kloster",
   "type": "Angular",
   "preview": "https://fakeimg.pl/650x450/000000/"

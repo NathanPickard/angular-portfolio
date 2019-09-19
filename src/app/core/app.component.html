@@ -3,12 +3,21 @@
     <div class="container">
       <nav class="navbar navbar-expand navbar-dark">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active"><i
-              class="d-none d-sm-inline-block fas fa-home mx-1"></i>Home</a>
-          <a class="nav-item nav-link" [routerLink]="['/portfolio']" routerLinkActive="active"><i
-              class="d-none d-sm-inline-block fas fa-images mx-1"></i>Portfolio</a>
-          <a class="nav-item nav-link" [routerLink]="['/contact']" routerLinkActive="active"><i
-              class="d-none d-sm-inline-block fas fa-envelope mx-1"></i>Contact</a>
+          <!-- <a class="nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active"><i
+              class="d-none d-sm-inline-block fas fa-home mx-1"></i>Home</a> -->
+          <a class="nav-item nav-link" [routerLink]="['/home']" routerLinkActive="active">
+            <mat-icon svgIcon="home" class="d-none d-sm-inline-block mx-1"></mat-icon>Home
+          </a>
+          <!-- <a class="nav-item nav-link" [routerLink]="['/portfolio']" routerLinkActive="active"><i
+              class="d-none d-sm-inline-block fas fa-images mx-1"></i>Portfolio</a> -->
+          <a class="nav-item nav-link" [routerLink]="['/portfolio']" routerLinkActive="active">
+            <mat-icon svgIcon="tools" class="d-none d-sm-inline-block mx-1"></mat-icon>Portfolio
+          </a>
+          <!-- <a class="nav-item nav-link" [routerLink]="['/contact']" routerLinkActive="active"><i
+              class="d-none d-sm-inline-block fas fa-envelope mx-1"></i>Contact</a> -->
+          <a class="nav-item nav-link" [routerLink]="['/contact']" routerLinkActive="active">
+            <mat-icon svgIcon="email" class="d-none d-sm-inline-block mx-1"></mat-icon>Contact
+          </a>
         </div>
       </nav>
     </div>
@@ -30,8 +39,15 @@
       </div>
       <div class="col-12 col-sm-6">
         <ul class="social-icons float-right mt-3">
-          <li><a class="fab fa-linkedin"></a></li>
-          <li><a class="fab fa-twitter"></a></li>
+          <!-- <li><a class="fab fa-linkedin"></a></li> -->
+          <li><a href="https://www.linkedin.com/in/nathanpickard/" target="_blank">
+              <mat-icon svgIcon="linkedin-box"></mat-icon>
+            </a></li>
+          <!-- <li><a class="fab fa-twitter"></a></li> -->
+          <li><a href="https://twitter.com/NathanPickard" target="_blank">
+              <mat-icon svgIcon="twitter"></mat-icon>
+            </a></li>
+          <!-- <li><a class="fas fa-envelope-open-text"></a></li> -->
           <li><a class="fas fa-envelope-open-text"></a></li>
         </ul>
       </div>
