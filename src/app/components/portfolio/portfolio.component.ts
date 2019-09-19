@@ -42,8 +42,6 @@ export class PortfolioComponent implements OnInit {
     }
   }
 
-  rooms = ['Room 1', 'Living Room'];
-
   portfolios: Portfolio[];
 
   constructor(private portfolioService: PortfolioService,

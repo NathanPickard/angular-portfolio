@@ -1,6 +1,7 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  // font-family: "Montserrat", sans-serif;
+  // font-weight: 400;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .site {
@@ -18,7 +19,7 @@ body {
 }
 
 .header {
-  background: url("./assets/images/background.jpg") no-repeat;
+  background: url("./assets/images/background2.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   min-height: 200px;
