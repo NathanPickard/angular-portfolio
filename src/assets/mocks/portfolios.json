@@ -1,73 +1,86 @@
-[{
-  "id": 1,
-  "name": "Live Music PDX",
-  "discription": "Schneidau",
-  "type": "Angular",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 2,
-  "name": "Lancelot",
-  "discription": "Oliphant",
-  "type": "Vue",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 3,
-  "name": "National Park Fitter",
-  "discription": "Kloster",
-  "type": "Angular",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 4,
-  "name": "Roscoe",
-  "discription": "Gascoyen",
-  "type": "React",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 5,
-  "name": "Osmond",
-  "discription": "Mussotti",
-  "type": "React",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 6,
-  "name": "Ford",
-  "discription": "Slate",
-  "type": "Angular",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 7,
-  "name": "Peri",
-  "discription": "Kleinholz",
-  "type": "React",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 8,
-  "name": "Halsy",
-  "discription": "Avon",
-  "type": "Vue",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 9,
-  "name": "Emmanuel",
-  "discription": "Williment",
-  "type": "React",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 10,
-  "name": "Alia",
-  "discription": "Bogies",
-  "type": "Vue",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 11,
-  "name": "Othelia",
-  "discription": "Prebble",
-  "type": "Angular",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}, {
-  "id": 12,
-  "name": "Jayne",
-  "discription": "Clayworth",
-  "type": "Vue",
-  "preview": "https://fakeimg.pl/650x450/000000/"
-}]
+[
+  {
+    "id": 1,
+    "name": "Live Music PDX",
+    "description": "Live music finder for the Portland, OR area",
+    "type": "Angular",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 2,
+    "name": "Lancelot",
+    "description": "Oliphant",
+    "type": "AWS",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 3,
+    "name": "National Park Fitter",
+    "description": "US National Park fitter to find the right park for your next visit",
+    "type": "Angular",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 4,
+    "name": "Roscoe",
+    "description": "Gascoyen",
+    "type": "React",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 5,
+    "name": "Osmond",
+    "description": "Mussotti",
+    "type": "React",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 6,
+    "name": "Ford",
+    "description": "Slate",
+    "type": "Angular",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 7,
+    "name": "Peri",
+    "description": "Kleinholz",
+    "type": "React",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 8,
+    "name": "Halsy",
+    "description": "Avon",
+    "type": "AWS",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 9,
+    "name": "Emmanuel",
+    "description": "Williment",
+    "type": "React",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 10,
+    "name": "Alia",
+    "description": "Bogies",
+    "type": "AWS",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 11,
+    "name": "Othelia",
+    "description": "Prebble",
+    "type": "Angular",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  },
+  {
+    "id": 12,
+    "name": "Jayne",
+    "description": "Clayworth",
+    "type": "AWS",
+    "preview": "https://fakeimg.pl/650x450/000000/"
+  }
+]
