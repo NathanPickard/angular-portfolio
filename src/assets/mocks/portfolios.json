@@ -24,63 +24,14 @@
     "id": 4,
     "name": "Roscoe",
     "description": "Gascoyen",
-    "type": "React",
+    "type": "AWS",
     "preview": "https://fakeimg.pl/650x450/000000/"
   },
   {
     "id": 5,
     "name": "Osmond",
     "description": "Mussotti",
-    "type": "React",
-    "preview": "https://fakeimg.pl/650x450/000000/"
-  },
-  {
-    "id": 6,
-    "name": "Ford",
-    "description": "Slate",
-    "type": "Angular",
-    "preview": "https://fakeimg.pl/650x450/000000/"
-  },
-  {
-    "id": 7,
-    "name": "Peri",
-    "description": "Kleinholz",
-    "type": "React",
-    "preview": "https://fakeimg.pl/650x450/000000/"
-  },
-  {
-    "id": 8,
-    "name": "Halsy",
-    "description": "Avon",
-    "type": "AWS",
-    "preview": "https://fakeimg.pl/650x450/000000/"
-  },
-  {
-    "id": 9,
-    "name": "Emmanuel",
-    "description": "Williment",
-    "type": "React",
-    "preview": "https://fakeimg.pl/650x450/000000/"
-  },
-  {
-    "id": 10,
-    "name": "Alia",
-    "description": "Bogies",
-    "type": "AWS",
-    "preview": "https://fakeimg.pl/650x450/000000/"
-  },
-  {
-    "id": 11,
-    "name": "Othelia",
-    "description": "Prebble",
-    "type": "Angular",
-    "preview": "https://fakeimg.pl/650x450/000000/"
-  },
-  {
-    "id": 12,
-    "name": "Jayne",
-    "description": "Clayworth",
-    "type": "AWS",
+    "type": "Firebase",
     "preview": "https://fakeimg.pl/650x450/000000/"
   }
 ]
