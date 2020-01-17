@@ -13,7 +13,7 @@
     "description": "Find the right movie for your next movie night.  Search for the newest and upcoming theatrically releases or discover old favorites",
     "type": "Angular",
     "preview": "https://fakeimg.pl/650x450/000000/",
-    "url": "https://d3hwbrrzu33taq.cloudfront.net/"
+    "url": "https://primetime-movies.netlify.com/movies"
   },
   {
     "id": 3,

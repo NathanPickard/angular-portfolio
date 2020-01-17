@@ -112,7 +112,8 @@
     <h2><i class="fab fa-angular angular-color d-md-none mr-2"></i>Angular</h2>
     <p>Angular is my go-to front-end framework for building feature-rich web applications and client-side solutions.</p>
     <p></p>
-    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'Angular'}" mat-stroked-button>View Angular Projects</button>
+    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'Angular'}" mat-stroked-button>View Angular
+      Projects</button>
   </div>
 </div>
 
@@ -138,7 +139,8 @@
     <p>Firebase allows me to easily add authentication, storage, and hosting to any web or mobile application</p>
     <p>Dolorem pariatur neque quibusdam distinctio nisi exercitationem commodi tempore adipisci vitae asperiores. Sit
       accusamus error vitae. Sit id libero neque facere!</p>
-    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'React'}" mat-stroked-button>View Firebase Projects</button>
+    <button [routerLink]="['/portfolio']" [queryParams]="{filter:'React'}" mat-stroked-button>View Firebase
+      Projects</button>
   </div>
 </div>
 
@@ -154,7 +156,9 @@
   <div class="row no-gutters">
     <div *ngFor="let item of recentProjects; index as i"
       [ngClass]="{'col-12 col-sm-4 col-md-4': i < 3, 'col-12 col-sm-6 col-md-3': i >= 3}">
-      <img class="img-fluid" [src]="item.preview + '?text=' + item.name" [alt]="item.name">
+      <a href="{{ item.url }}" target="_blank">
+        <img class="img-fluid" [src]="item.preview + '?text=' + item.name" [alt]="item.name">
+      </a>
     </div>
 
     <div class="col-12 mt-3">
