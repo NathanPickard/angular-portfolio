@@ -4,21 +4,24 @@
     "name": "Live Music PDX",
     "description": "Live music finder for the Portland, OR area",
     "type": "Angular",
-    "preview": "https://fakeimg.pl/650x450/000000/"
+    "preview": "https://fakeimg.pl/650x450/000000/",
+    "url": "https://d3hwbrrzu33taq.cloudfront.net/"
   },
   {
     "id": 2,
-    "name": "Lancelot",
-    "description": "Oliphant",
-    "type": "AWS",
-    "preview": "https://fakeimg.pl/650x450/000000/"
+    "name": "Primetime Movies",
+    "description": "Find the right movie for your next movie night.  Search for the newest and upcoming theatrically releases or discover old favorites",
+    "type": "Angular",
+    "preview": "https://fakeimg.pl/650x450/000000/",
+    "url": "https://d3hwbrrzu33taq.cloudfront.net/"
   },
   {
     "id": 3,
     "name": "National Park Fitter",
-    "description": "US National Park fitter to find the right park for your next visit",
+    "description": "US National Park fitter to find the right park for your next outdoor adventure",
     "type": "Angular",
-    "preview": "https://fakeimg.pl/650x450/000000/"
+    "preview": "https://fakeimg.pl/650x450/000000/",
+    "url": "https://d1n059oszk6w1c.cloudfront.net/"
   },
   {
     "id": 4,

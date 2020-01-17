@@ -4,4 +4,5 @@ export interface Portfolio {
   description: string;
   type: string;
   preview: string;
+  url: string;
 }
